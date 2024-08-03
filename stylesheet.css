@@ -122,8 +122,22 @@ body {
 	background-size: 50px 50px;
 }
 
+@media (max-width: 600px) {
+    .bulb {
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+}
+
 .bulb-holder {
 	height: 70px;
+}
+
+@media (max-width: 600px) {
+    .bulb-holder {
+        height: 50px; /* Ajusta según sea necesario */
+    }
 }
 
 .bulb-glow-yellow {
