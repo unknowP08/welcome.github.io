@@ -123,7 +123,7 @@ $('document').ready(function(){
 			$('#cake_fadein').fadeIn('slow');
 		});
 	});	
-
+#
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
